@@ -1,0 +1,87 @@
+body {
+    overflow: hidden;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    margin: auto;
+    width: 26rem;
+    height: 13rem;
+  }
+  .stripe {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+    animation: shine 4000ms;
+  }
+  .violet {
+    top: 10rem;
+    width: 6rem;
+    height: 6rem;
+    box-shadow: inset 0 0 0 1rem #a8a8ff;
+    clip-path: polygon(0 0, 9rem 0, 6rem 3rem, 0 3rem, 0 0);
+    animation-delay: 0ms;
+  }
+  .indigo {
+    top: 9rem;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: inset 0 0 0 1rem #7373ff;
+    clip-path: polygon(0 0, 12rem 0, 8rem 4rem, 0 4rem, 0 0);
+    animation-delay: 100ms;
+  }
+  .blue {
+    top: 8rem;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: inset 0 0 0 1rem #8ed6ea;
+    clip-path: polygon(0 0, 15rem 0, 10rem 5rem, 0 5rem, 0 0);
+    animation-delay: 200ms;
+  }
+  .green {
+    top: 7rem;
+    width: 12rem;
+    height: 12rem;
+    box-shadow: inset 0 0 0 1rem #2ecc71;
+    clip-path: polygon(0 0, 18rem 0, 12rem 6rem, 0 6rem, 0 0);
+    animation-delay: 300ms;
+  }
+  .yellow {
+    top: 6rem;
+    width: 14rem;
+    height: 14rem;
+    box-shadow: inset 0 0 0 1rem #fff06a;
+    clip-path: polygon(0 0, 21rem 0, 14rem 7rem, 0 7rem, 0 0);
+    animation-delay: 400ms;
+  }
+  .orange {
+    top: 5rem;
+    width: 16rem;
+    height: 16rem;
+    box-shadow: inset 0 0 0 1rem #ff9c42;
+    clip-path: polygon(0 0, 24rem 0, 16rem 8rem, 0 8rem, 0 0);
+    animation-delay: 500ms;
+  }
+  .red {
+    top: 4rem;
+    width: 18rem;
+    height: 18rem;
+    box-shadow: inset 0 0 0 1rem #ff5353;
+    clip-path: polygon(0 0, 27rem 0, 18rem 9rem, 0 9rem, 0 0);
+    animation-delay: 600ms;
+  }
+  @keyframes shine {
+    0% {
+      transform: rotate(-360deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
+  }
+  
